@@ -55,6 +55,11 @@
             bindings = <&kp EQUAL>;
             key-positions = <24 25>;
         };
+
+        caps {
+            bindings = <&kp CAPS>;
+            key-positions = <2 1>;
+        };
     };
 
     macros {
