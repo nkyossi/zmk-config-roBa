@@ -117,7 +117,7 @@
 &kp SEMICOLON     &kp C         &kp U         &kp Y                        &kp P                                                 &kp V        &kp D  &lt 5 H  &kp G  &kp J
 &mt LCTRL A       &kp O         &kp E         &kp I                        &kp PERIOD   &kp LS(LG(S))             &tog 7         &kp K        &kp T  &kp N    &kp S  &kp R
 &mt LEFT_SHIFT Q  &kp X         &kp COMMA     &kp Z                        &kp MINUS    &kp SLASH                 &kp APOS       &kp F        &kp W  &kp M    &kp L  &mt RIGHT_SHIFT B
-&mt RCTRL LC(V)   &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 TAB      &kp BACKSPACE  &lt 1 ENTER                         &kp DEL
+&mt RCTRL LC(V)   &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 1 TAB      &kp BACKSPACE  &lt 1 ENTER                         &kp DEL
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
@@ -125,10 +125,10 @@
 
         FUNCTION {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&trans  &trans  &trans  &trans  &trans  &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans                          &kp F12
+&kp F1          &kp F2                  &kp F3        &kp F4                   &kp F5                           &kp F6     &kp F7     &kp F8     &kp F9     &kp F10
+&kp HOME        &kp LEFT                &kp UP_ARROW  &kp RIGHT                &kp END     &trans      &kp F11  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(A)
+&kp LEFT_SHIFT  &kp LS(LG(LEFT_ARROW))  &kp DOWN      &kp LS(LG(RIGHT_ARROW))  &kp ESCAPE  &trans      &kp F12  &kp LC(Y)  &trans     &trans     &trans     &trans
+&trans          &trans                  &trans        &trans                   &trans      &trans      &trans   &trans                                      &trans
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -156,10 +156,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
+&trans  &trans  &trans  &trans  &trans                      &trans    &trans    &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &mkp MB4  &mkp MB1  &mkp MB3  &mkp MB2  &mkp MB5
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans    &trans    &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                  &trans
             >;
         };
 
