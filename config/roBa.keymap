@@ -172,8 +172,8 @@
         default_layer {
             bindings = <
 &kp SEMICOLON     &kp C         &kp U         &kp Y                        &kp P                                                 &kp V        &kp D  &lt 5 H  &kp G  &kp J
-&mt LCTRL A       &kp O         &kp E         &kp I                        &kp PERIOD   &kp LS(LG(S))             &to 7          &kp K        &kp T  &kp N    &kp S  &kp R
-&mt LEFT_SHIFT Q  &kp X         &kp COMMA     &kp Z                        &kp MINUS    &kp SLASH                 &kp APOS       &kp F        &kp W  &kp M    &kp L  &mt RIGHT_SHIFT B
+&mt LCTRL A       &kp O         &kp E         &kp I                        &kp PERIOD   &kp LS(LG(S))             &tog 7         &kp K        &kp T  &kp N    &kp S  &kp R
+&mt LEFT_SHIFT Q  &kp X         &kp COMMA     &kp Z                        &kp MINUS    &kp SLASH                 &kp APOS       &kp F        &kp W  &kp M    &kp B  &mt RIGHT_SHIFT L
 &mt RCTRL LC(V)   &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 1 TAB      &kp BACKSPACE  &lt 1 ENTER                         &kp DEL
             >;
 
@@ -241,7 +241,7 @@
         game {
             bindings = <
 &kp Q      &kp W      &kp E         &kp R       &kp T                                     &kp LS(F1)  &kp LS(F2)  &kp LS(F3)  &kp LS(F4)  &kp LS(F5)
-&kp A      &kp S      &kp D         &kp F       &kp G      &kp F12         &to 0          &kp LS(F6)  &kp LS(F7)  &kp LS(F8)  &kp RS(F1)  &kp RS(F2)
+&kp A      &kp S      &kp D         &kp F       &kp G      &kp F12         &tog 7         &kp LS(F6)  &kp LS(F7)  &kp LS(F8)  &kp RS(F1)  &kp RS(F2)
 &kp Z      &kp X      &kp C         &kp V       &kp B      &kp END         &kp H          &kp RS(F3)  &kp RS(F4)  &kp RS(F5)  &kp RS(F6)  &kp RS(F7)
 &kp LCTRL  &kp LC(N)  &kp LEFT_ALT  &kp LSHIFT  &kp SPACE  &kp ESCAPE      &kp BACKSPACE  &kp ENTER                                       &kp RS(F8)
             >;
