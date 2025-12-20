@@ -67,7 +67,7 @@
     // };
 };
 
-&mkp_input_listener { input-processors = <&zip_temp_layer 4 150>; };
+&mkp_input_listener { input-processors = <&zip_temp_layer 4 200>; };
 
 &zip_temp_layer { require-prior-idle-ms = <200>; };
 
