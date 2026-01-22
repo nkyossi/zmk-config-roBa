@@ -176,7 +176,7 @@
 
         default_layer {
             bindings = <
-&kp SEMI          &kp C         &kp U         &kp Y                        &kp Z                                                          &kp V        &kp D  &lt 5 H  &kp G  &kp J
+&kp SINGLE_QUOTE  &kp C         &kp U         &kp Y                        &kp Z                                                          &kp V        &kp D  &lt 5 H  &kp G  &kp J
 &mt LCTRL A       &kp O         &kp E         &kp I                        &kp PERIOD   &kp LS(LG(S))                      &tog 1         &kp K        &kp T  &kp N    &kp S  &kp R
 &mt LEFT_SHIFT Q  &kp X         &kp SLASH     &kp P                        &kp COMMA    &kp MINUS                          &kp APOS       &kp F        &kp W  &kp M    &kp B  &mt RIGHT_SHIFT L
 &mt RCTRL LC(V)   &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 7 INT_HENKAN  &lt 3 SPACE  &lt_to_layer_0 2 INT_MUHENKAN      &kp BACKSPACE  &lt 2 ENTER                         &kp DEL
@@ -209,7 +209,7 @@
 
         NUM {
             bindings = <
-&kp PLUS                    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp JP_PLUS                                                      &kp JP_CARET     &kp JP_AMPERSAND  &kp JP_TILDE   &kp JP_LPAREN  &kp JP_RPAREN
+&kp SEMI                    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp JP_PLUS                                                      &kp JP_CARET     &kp JP_AMPERSAND  &kp JP_TILDE   &kp JP_LPAREN  &kp JP_RPAREN
 &kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp JP_ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp JP_UNDERSCORE  &kp EXCLAMATION  &kp JP_AT         &kp HASH       &kp DOLLAR     &kp PERCENT
 &mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD       &kp JP_EQUAL                 &trans             &kp JP_LBRACKET  &kp JP_RBRACKET   &kp JP_LBRACE  &kp JP_RBRACE  &kp JP_YEN
 &trans                      &trans           &trans           &trans           &trans           &trans                       &trans             &trans                                                           &kp JP_PIPE
